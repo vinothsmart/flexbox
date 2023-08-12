@@ -28,8 +28,9 @@ h3 {
   transition-duration: 1s, 2s, 0.5s; */
   /* transition: width 1s, height 2s, background-color 0.5s; */
   /* transition: width, height, background-colo 1s, 2s, 0.5s; */
-  transition-property: all;
-  transition-duration: 1s;
+  /* transition-property: all;
+  transition-duration: 1s; */
+  transition: all 1s;
 }
 
 .box1:hover {
