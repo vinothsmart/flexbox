@@ -26,7 +26,8 @@ h3 {
   background-color: orangered;
   /* transition-property: width, height, background-color;
   transition-duration: 1s, 2s, 0.5s; */
-  transition: width 1s, height 2s, background-color 0.5s;
+  /* transition: width 1s, height 2s, background-color 0.5s; */
+  transition: width, height, background-colo 1s, 2s, 0.5s;
 }
 
 .box1:hover {
