@@ -6,3 +6,16 @@ body {
 h3 {
   font-size: 50px;
 }
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: orangered;
+  transition-property: width;
+  transition-duration: 1s;
+  margin-left: -200px;
+}
+
+.box:hover {
+  width: 300px;
+}
