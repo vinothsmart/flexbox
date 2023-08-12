@@ -19,3 +19,15 @@ h3 {
 .box:hover {
   width: 300px;
 }
+
+.box1 {
+  width: 150px;
+  height: 150px;
+  background-color: orangered;
+  transition-property: width;
+  transition-duration: 1s;
+}
+
+.box1:hover {
+  width: 300px;
+}
