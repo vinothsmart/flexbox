@@ -21,3 +21,31 @@ body {
   max-width: 600px;
   background-color: white;
 }
+
+.content {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.5s ease;
+}
+
+.content p {
+  padding: 15px;
+}
+
+.content:target {
+  min-height: 150px;
+}
+
+.title {
+  display: block;
+  padding: 10px;
+  font-size: 1em;
+  background-color: #2f3542;
+  color: white;
+  border: 1px solid #57606f;
+  transition: background-color 0.5s;
+}
+
+.title:hover {
+  background-color: #747d8c;
+}
