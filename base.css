@@ -33,6 +33,7 @@ h3 {
   transition-delay: 2s;
   */
   transition: all 1s 2s;
+  transition-timing-function: ease;
 }
 
 .box1:hover {
