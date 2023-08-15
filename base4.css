@@ -12,5 +12,5 @@
 .square:hover {
   /* background-color: blueviolet;
     width: 600px; */
-  transform: scale(2);
+  transform: scaley(2);
 }
