@@ -6,11 +6,11 @@
   transition-property: background-color;
   transition-timing-function: cubic-bezier(1, -0.29, 0.26, 1.29);
   transition-delay: 1s; */
-  transition: background-color 3s 1s linear;
+  /* transition: background-color 3s 1s linear; */
 }
 
 .square:hover {
-  background-color: blueviolet;
-  width: 600px;
-  transform: rotate(45deg);
+  /* background-color: blueviolet;
+    width: 600px; */
+  transform: rotatex(45deg);
 }
