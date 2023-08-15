@@ -4,7 +4,7 @@
   background-color: aquamarine;
   transition-duration: 3s;
   transition-property: all;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: linear;
 }
 
 .square:hover {
