@@ -4,11 +4,11 @@
   background-color: aquamarine;
   transition-duration: 3s;
   transition-property: all;
-  transition-timing-function: linear;
+  transition-timing-function: cubic-bezier(1, -0.29, 0.26, 1.29);
 }
 
 .square:hover {
   background-color: blueviolet;
   width: 600px;
-  transform: rotate(45deg);
+  /* transform: rotate(45deg); */
 }
