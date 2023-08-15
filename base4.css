@@ -9,4 +9,5 @@
 .square:hover {
   background-color: blueviolet;
   width: 600px;
+  transform: rotate(45deg);
 }
