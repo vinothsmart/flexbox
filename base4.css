@@ -7,4 +7,5 @@
 
 .square:hover {
   background-color: blueviolet;
+  width: 600px;
 }
