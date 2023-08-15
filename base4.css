@@ -5,6 +5,7 @@
   transition-duration: 3s;
   transition-property: all;
   transition-timing-function: cubic-bezier(1, -0.29, 0.26, 1.29);
+  transition-delay: 5s;
 }
 
 .square:hover {
