@@ -14,3 +14,25 @@
     width: 600px; */
   transform: translateY(-50px);
 }
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  animation-name: circle;
+  animation-duration: 3s;
+}
+
+@keyframes circle {
+  50% {
+    background-color: lightseagreen;
+    width: 200px;
+    height: 200px;
+  }
+  100% {
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+  }
+}
