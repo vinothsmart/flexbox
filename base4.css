@@ -24,6 +24,7 @@
   animation-duration: 3s;
   /* 100 % complted animation stop there */
   animation-fill-mode: forwards;
+  animation-iteration-count: 2;
 }
 
 @keyframes circle {
