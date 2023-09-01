@@ -12,10 +12,16 @@
   </head>
   <body>
     <h1>Display Table in Css</h1>
-    <table width="100%" border="1px" cellpadding="10px" cellspacing="10px">
+    <table width="50%" border="1px" cellpadding="10px" cellspacing="10px">
       <caption>
         Student Details
       </caption>
+      <!-- Using colgroup width and background color can be modified  -->
+      <colgroup>
+        <col width="150px" />
+        <col width="50px" />
+        <col />
+      </colgroup>
       <thead>
         <tr>
           <th>Name</th>
@@ -44,6 +50,11 @@
           <td>55</td>
         </tr>
       </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total Students: 4</td>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>
