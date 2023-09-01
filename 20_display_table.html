@@ -4,21 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style></style>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
   </head>
   <body>
     <h1>Display Table in Css</h1>
     <table width="100%" border="1px" cellpadding="10px" cellspacing="10px">
-      <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>City</th>
-      </tr>
-      <tr>
-        <td>John</td>
-        <td>45</td>
-        <td>London</td>
-      </tr>
+      <caption>
+        Student Details
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>45</td>
+          <td>London</td>
+        </tr>
+        <tr>
+          <td>Sam</td>
+          <td>25</td>
+          <td>New York</td>
+        </tr>
+        <tr>
+          <td>Harry</td>
+          <td>35</td>
+          <td rowspan="2">Paris</td>
+        </tr>
+        <tr>
+          <td>Tom</td>
+          <td>55</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
