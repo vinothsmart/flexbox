@@ -9,7 +9,7 @@
         margin-top: 100px;
         margin-left: 100px;
         width: 600px;
-        border: 1px solid #333;
+        /* border: 1px solid #333; */
         display: table;
       }
       .row {
@@ -20,17 +20,42 @@
         /* td */
         /* width: 600px;
         border: 1px solid #333; */
+
+        border: 1px solid orangered;
+        padding: 10px 30px;
+
         display: table-cell;
+      }
+      .header {
+        font-weight: bold;
+        text-align: center;
+        background-color: orangered;
+        color: white;
+
+        display: table-header-group; /* thead */
+      }
+      .footer {
+        display: table-footer-group; /* tfoot */
+      }
+      .caption {
+        display: table-caption; /* caption */
+        text-align: center;
+        font-weight: bold;
+        color: orangered;
+        padding: 10px;
       }
     </style>
   </head>
   <body>
     <h1>Display Table</h1>
     <div class="table">
-      <div class="row">
-        <div class="col">Name</div>
-        <div class="col">Age</div>
-        <div class="col">City</div>
+      <div class="caption">Students Details</div>
+      <div class="header">
+        <div class="row">
+          <div class="col">Name</div>
+          <div class="col">Age</div>
+          <div class="col">City</div>
+        </div>
       </div>
       <div class="row">
         <div class="col">John</div>
@@ -56,6 +81,13 @@
         <div class="col">Sammy</div>
         <div class="col">55</div>
         <div class="col">Paris</div>
+      </div>
+      <div class="footer">
+        <div class="row">
+          <div class="col">Total Students</div>
+          <div class="col"></div>
+          <div class="col">5</div>
+        </div>
       </div>
     </div>
   </body>
