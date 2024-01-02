@@ -1,6 +1,7 @@
 /*
 1. Static
 2. Relative
+    left, right, top, bottom
 3. Absolute
 4. Fixed
 5. Sticky
@@ -9,11 +10,12 @@
 /* default document flow all postion is in static only */
 
 .main {
-  position: static;
 }
 
 .box1 {
-  position: static;
+  position: relative;
+  left: 50px;
+  top: 25px;
 }
 
 .box2 {
